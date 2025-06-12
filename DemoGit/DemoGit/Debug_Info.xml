@@ -12,19 +12,5 @@
     <SchedulerRefreshInterval>5</SchedulerRefreshInterval>
     <ContextViewActionTimeout>30</ContextViewActionTimeout>
   </debuggerSettings>
-  <DebuggerInstractionsList>
-    <DebuggerInstruction>
-      <bpID>1</bpID>
-      <flowID>1</flowID>
-      <stepID>3</stepID>
-      <isGoToStep>false</isGoToStep>
-      <sourceStepID>0</sourceStepID>
-      <sortOrder>1</sortOrder>
-      <Type>Breakpoint</Type>
-      <BreakPointCondition>
-        <ExpectedType>L</ExpectedType>
-        <Direction>I</Direction>
-      </BreakPointCondition>
-    </DebuggerInstruction>
-  </DebuggerInstractionsList>
+  <DebuggerInstractionsList />
 </DebuggerData>
