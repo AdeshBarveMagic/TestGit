@@ -1,1 +1,2 @@
 /DemoGit/DemoGit.suo
+/DemoGit/DemoGit/ifs.ini
