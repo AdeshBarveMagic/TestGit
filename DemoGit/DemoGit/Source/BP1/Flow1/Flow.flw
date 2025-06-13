@@ -7,7 +7,7 @@
     <isInactive>false</isInactive>
     <isDisabled>false</isDisabled>
     <isTwoPhase>false</isTwoPhase>
-    <isAutoStart>false</isAutoStart>
+    <isAutoStart>true</isAutoStart>
     <MaxInstances>0</MaxInstances>
     <isAutoRepeat>false</isAutoRepeat>
     <PSSSubGUID>
@@ -73,7 +73,7 @@
         <BAMService>
           <MSGDetails>
             <MSGString>
-              <ExpressionVal>JyJBZGRlZCBJZnMi</ExpressionVal>
+              <ExpressionVal>JyJBZGRlZCBJZnMiJw==</ExpressionVal>
               <ExpectedType>A</ExpectedType>
               <Direction>I</Direction>
             </MSGString>
