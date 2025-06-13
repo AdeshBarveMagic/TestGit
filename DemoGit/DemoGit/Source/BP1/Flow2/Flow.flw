@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Flow>
   <Properties>
-    <ID>1</ID>
-    <Order>1</Order>
-    <Name>Flow-1</Name>
+    <ID>2</ID>
+    <Order>2</Order>
+    <Name>Flow-2</Name>
     <isInactive>false</isInactive>
     <isDisabled>false</isDisabled>
     <isTwoPhase>false</isTwoPhase>
@@ -59,63 +59,6 @@
         <ParentStepID>0</ParentStepID>
         <SortOrder>0</SortOrder>
         <ID>1</ID>
-        <Name>BAM Utility</Name>
-        <IFCDefinition>16</IFCDefinition>
-        <ProcessMode>1</ProcessMode>
-        <isTwoPhase>false</isTwoPhase>
-        <isWait4Comp>false</isWait4Comp>
-        <isSavePoint>false</isSavePoint>
-        <CallLogicFlow>false</CallLogicFlow>
-        <isReturnXML>false</isReturnXML>
-        <isTrigger>false</isTrigger>
-      </Properties>
-      <iBoltService>
-        <BAMService>
-          <MSGDetails>
-            <MSGString>
-              <ExpressionVal>JyJBZGRlZCBJZnMi</ExpressionVal>
-              <ExpectedType>A</ExpectedType>
-              <Direction>I</Direction>
-            </MSGString>
-            <MSGBLOB>
-              <ExpectedType>B</ExpectedType>
-              <Direction>I</Direction>
-            </MSGBLOB>
-          </MSGDetails>
-          <CategoryExp>
-            <ExpectedType>A</ExpectedType>
-            <Direction>I</Direction>
-          </CategoryExp>
-          <PriorityExp>
-            <ExpectedType>N</ExpectedType>
-            <Direction>I</Direction>
-          </PriorityExp>
-          <StatusExp>
-            <ExpectedType>N</ExpectedType>
-            <Direction>I</Direction>
-          </StatusExp>
-          <UserKey1>
-            <ExpectedType>A</ExpectedType>
-            <Direction>I</Direction>
-          </UserKey1>
-          <UserKey2>
-            <ExpectedType>A</ExpectedType>
-            <Direction>I</Direction>
-          </UserKey2>
-        </BAMService>
-      </iBoltService>
-      <WebServiceMigrationInfo>
-        <NotMigrated>false</NotMigrated>
-        <OutAttachmentsWarning>false</OutAttachmentsWarning>
-        <ReturnValueError>false</ReturnValueError>
-      </WebServiceMigrationInfo>
-    </row_Step>
-    <row_Step>
-      <Properties>
-        <isGoTo>false</isGoTo>
-        <ParentStepID>1</ParentStepID>
-        <SortOrder>1</SortOrder>
-        <ID>2</ID>
         <Name>NOP</Name>
         <IFCDefinition>22</IFCDefinition>
         <ProcessMode>1</ProcessMode>
