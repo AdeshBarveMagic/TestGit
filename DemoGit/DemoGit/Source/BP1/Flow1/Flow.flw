@@ -73,7 +73,7 @@
         <BAMService>
           <MSGDetails>
             <MSGString>
-              <ExpressionVal>JyJBZGRlZCBOZXcgUHJvamVjdCIn</ExpressionVal>
+              <ExpressionVal>JyJBZGRlZCBOZXcgUHJvamVjdCBBbmQgZ2l0aWdub3JlIic=</ExpressionVal>
               <ExpectedType>A</ExpectedType>
               <Direction>I</Direction>
             </MSGString>
