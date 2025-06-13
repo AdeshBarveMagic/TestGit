@@ -96,7 +96,11 @@
         <BAMService>
           <MSGDetails>
             <MSGString>
+<<<<<<< HEAD
               <ExpressionVal>J0JBTSBBZGRlZCB0byBUUic=</ExpressionVal>
+=======
+              <ExpressionVal>J1VwZGF0ZWQgQkFNJw==</ExpressionVal>
+>>>>>>> e8737480caac931ee38f0d2f661fac27560423e9
               <ExpectedType>A</ExpectedType>
               <Direction>I</Direction>
             </MSGString>
