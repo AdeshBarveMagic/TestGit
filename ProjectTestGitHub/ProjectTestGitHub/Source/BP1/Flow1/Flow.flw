@@ -135,11 +135,16 @@
             <ID>2</ID>
             <Order>0</Order>
             <Action>1</Action>
+<<<<<<< HEAD
             <TargetType>2</TargetType>
+=======
+            <TargetType>1</TargetType>
+>>>>>>> 35a83a3d7913b19bf3b4327ea9f8d06dd604f81a
             <isTargetDynamic>false</isTargetDynamic>
             <Encoding>0</Encoding>
             <TargetInfo>
               <NameExp>
+<<<<<<< HEAD
                 <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</ExpressionVal>
                 <ExpectedType>B</ExpectedType>
                 <Direction>N</Direction>
@@ -147,6 +152,15 @@
               <Type>
                 <Type>B</Type>
                 <Picture />
+=======
+                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnMTUyZDIzYzQtYzAwZC00YzE2LThhMjktNDE4YTQ0ODQyN2ZmJywwLDApPCMhJUAkPg==</ExpressionVal>
+                <ExpectedType>A</ExpectedType>
+                <Direction>N</Direction>
+              </NameExp>
+              <Type>
+                <Type>A</Type>
+                <Picture>30</Picture>
+>>>>>>> 35a83a3d7913b19bf3b4327ea9f8d06dd604f81a
                 <isUnicode>false</isUnicode>
                 <isNillable>false</isNillable>
               </Type>
@@ -160,8 +174,13 @@
               <Direction>I</Direction>
             </IndexExp>
             <UpdateExp>
+<<<<<<< HEAD
               <ExpressionVal>J1RoaXMgaXMgYmxvYic=</ExpressionVal>
               <ExpectedType>B</ExpectedType>
+=======
+              <ExpressionVal>J0hFWVlZJw==</ExpressionVal>
+              <ExpectedType>A</ExpectedType>
+>>>>>>> 35a83a3d7913b19bf3b4327ea9f8d06dd604f81a
               <Direction>I</Direction>
             </UpdateExp>
             <ConditionExp>
