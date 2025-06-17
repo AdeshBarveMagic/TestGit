@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Flow>
   <Properties>
-    <ID>1</ID>
-    <Order>1</Order>
-    <Name>Flow-1</Name>
+    <ID>3</ID>
+    <Order>3</Order>
+    <Name>Flow-3</Name>
     <isInactive>false</isInactive>
     <isDisabled>false</isDisabled>
     <isTwoPhase>false</isTwoPhase>
-    <isAutoStart>true</isAutoStart>
+    <isAutoStart>false</isAutoStart>
     <MaxInstances>0</MaxInstances>
     <isAutoRepeat>false</isAutoRepeat>
     <PSSSubGUID>
@@ -59,63 +59,6 @@
         <ParentStepID>0</ParentStepID>
         <SortOrder>0</SortOrder>
         <ID>1</ID>
-        <Name>BAM Utility</Name>
-        <IFCDefinition>16</IFCDefinition>
-        <ProcessMode>1</ProcessMode>
-        <isTwoPhase>false</isTwoPhase>
-        <isWait4Comp>false</isWait4Comp>
-        <isSavePoint>false</isSavePoint>
-        <CallLogicFlow>false</CallLogicFlow>
-        <isReturnXML>false</isReturnXML>
-        <isTrigger>false</isTrigger>
-      </Properties>
-      <iBoltService>
-        <BAMService>
-          <MSGDetails>
-            <MSGString>
-              <ExpressionVal>J2RvbmUgYnkgQUIgZm9yIHJlc29sdmluZyBjb25mbGljdHMn</ExpressionVal>
-              <ExpectedType>A</ExpectedType>
-              <Direction>I</Direction>
-            </MSGString>
-            <MSGBLOB>
-              <ExpectedType>B</ExpectedType>
-              <Direction>I</Direction>
-            </MSGBLOB>
-          </MSGDetails>
-          <CategoryExp>
-            <ExpectedType>A</ExpectedType>
-            <Direction>I</Direction>
-          </CategoryExp>
-          <PriorityExp>
-            <ExpectedType>N</ExpectedType>
-            <Direction>I</Direction>
-          </PriorityExp>
-          <StatusExp>
-            <ExpectedType>N</ExpectedType>
-            <Direction>I</Direction>
-          </StatusExp>
-          <UserKey1>
-            <ExpectedType>A</ExpectedType>
-            <Direction>I</Direction>
-          </UserKey1>
-          <UserKey2>
-            <ExpectedType>A</ExpectedType>
-            <Direction>I</Direction>
-          </UserKey2>
-        </BAMService>
-      </iBoltService>
-      <WebServiceMigrationInfo>
-        <NotMigrated>false</NotMigrated>
-        <OutAttachmentsWarning>false</OutAttachmentsWarning>
-        <ReturnValueError>false</ReturnValueError>
-      </WebServiceMigrationInfo>
-    </row_Step>
-    <row_Step>
-      <Properties>
-        <isGoTo>false</isGoTo>
-        <ParentStepID>1</ParentStepID>
-        <SortOrder>1</SortOrder>
-        <ID>2</ID>
         <Name>NOP</Name>
         <IFCDefinition>22</IFCDefinition>
         <ProcessMode>1</ProcessMode>
@@ -136,9 +79,9 @@
     <row_Step>
       <Properties>
         <isGoTo>false</isGoTo>
-        <ParentStepID>2</ParentStepID>
+        <ParentStepID>1</ParentStepID>
         <SortOrder>1</SortOrder>
-        <ID>3</ID>
+        <ID>2</ID>
         <Name>Flow Data</Name>
         <IFCDefinition>12</IFCDefinition>
         <ProcessMode>1</ProcessMode>
@@ -160,13 +103,13 @@
             <Encoding>0</Encoding>
             <TargetInfo>
               <NameExp>
-                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA3JywwLDApPCMhJUAkPg==</ExpressionVal>
-                <ExpectedType>B</ExpectedType>
+                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA1JywwLDApPCMhJUAkPg==</ExpressionVal>
+                <ExpectedType>A</ExpectedType>
                 <Direction>N</Direction>
               </NameExp>
               <Type>
-                <Type>B</Type>
-                <Picture />
+                <Type>A</Type>
+                <Picture>1000</Picture>
                 <isUnicode>false</isUnicode>
                 <isNillable>false</isNillable>
               </Type>
@@ -180,8 +123,8 @@
               <Direction>I</Direction>
             </IndexExp>
             <UpdateExp>
-              <ExpressionVal>J1RoaXMgaXMgQmxvYic=</ExpressionVal>
-              <ExpectedType>B</ExpectedType>
+              <ExpressionVal>J1RoaXMgaXMgc3RyaW5nJw==</ExpressionVal>
+              <ExpectedType>A</ExpectedType>
               <Direction>I</Direction>
             </UpdateExp>
             <ConditionExp>
