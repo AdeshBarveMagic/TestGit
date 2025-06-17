@@ -14,12 +14,12 @@
       <Name>DemoGit</Name>
       <Owner>Magic Software Enterprises Ltd</Owner>
       <Description />
-      <Last_Edited>6/13/2025 3:57:58 PM</Last_Edited>
+      <Last_Edited>6/17/2025 2:24:13 PM</Last_Edited>
       <ProjVer>c3hOcDBPaXlZcjExRkt4Y2piYTV6dz09</ProjVer>
       <Encoding>West European</Encoding>
-      <ResourceFile>resources.xml</ResourceFile>
-      <ServiceFile>services.xml</ServiceFile>
-      <CalendarsFile>calendars.xml</CalendarsFile>
+      <ResourceFile>Resources.xml</ResourceFile>
+      <ServiceFile>Services.xml</ServiceFile>
+      <CalendarsFile>Calendars.xml</CalendarsFile>
       <IsCalendarsConfigured>true</IsCalendarsConfigured>
       <DebugMode>false</DebugMode>
       <IsResSerPropChanged>false</IsResSerPropChanged>
@@ -27,6 +27,8 @@
     <EnvInfo>
       <WebMonitor />
       <ErrMail>
+        <eMail />
+        <ResourceName />
         <ResourceDescription />
       </ErrMail>
     </EnvInfo>
