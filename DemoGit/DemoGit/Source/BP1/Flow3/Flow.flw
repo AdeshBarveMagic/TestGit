@@ -140,6 +140,7 @@
             <Encoding>0</Encoding>
             <TargetInfo>
               <NameExp>
+<<<<<<< HEAD
                 <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA2JywwLDApPCMhJUAkPg==</ExpressionVal>
                 <ExpectedType>N</ExpectedType>
                 <Direction>N</Direction>
@@ -147,6 +148,15 @@
               <Type>
                 <Type>N</Type>
                 <Picture>12.0</Picture>
+=======
+                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMiwnMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA5JywwLDApPCMhJUAkPg==</ExpressionVal>
+                <ExpectedType>B</ExpectedType>
+                <Direction>N</Direction>
+              </NameExp>
+              <Type>
+                <Type>B</Type>
+                <Picture />
+>>>>>>> remotes/origin/XPIProjects
                 <isUnicode>false</isUnicode>
                 <isNillable>false</isNillable>
               </Type>
@@ -160,8 +170,13 @@
               <Direction>I</Direction>
             </IndexExp>
             <UpdateExp>
+<<<<<<< HEAD
               <ExpressionVal>MTExMQ==</ExpressionVal>
               <ExpectedType>N</ExpectedType>
+=======
+              <ExpressionVal>J2kgZG9udCBjYXJlJw==</ExpressionVal>
+              <ExpectedType>B</ExpectedType>
+>>>>>>> remotes/origin/XPIProjects
               <Direction>I</Direction>
             </UpdateExp>
             <ConditionExp>
