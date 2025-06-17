@@ -14,7 +14,7 @@
       <Name>GitCheck</Name>
       <Owner>Magic Software Enterprises Ltd</Owner>
       <Description />
-      <Last_Edited>6/17/2025 5:39:58 PM</Last_Edited>
+      <Last_Edited>6/17/2025 5:55:13 PM</Last_Edited>
       <ProjVer>c3hOcDBPaXlZcjExRkt4Y2piYTV6dz09</ProjVer>
       <Encoding>West European</Encoding>
       <ResourceFile>resources.xml</ResourceFile>
@@ -58,7 +58,7 @@
       <LocalProjPath />
     </VCInfo>
     <FlowAndBpLastId>
-      <LastFlowId>1</LastFlowId>
+      <LastFlowId>3</LastFlowId>
       <LastBpId>1</LastBpId>
     </FlowAndBpLastId>
     <ServerSettings>
