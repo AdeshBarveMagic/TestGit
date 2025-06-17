@@ -109,7 +109,6 @@
               </NameExp>
               <Type>
                 <Type>B</Type>
-                <Picture />
                 <isUnicode>false</isUnicode>
                 <isNillable>false</isNillable>
               </Type>
@@ -125,6 +124,44 @@
             <UpdateExp>
               <ExpressionVal>J0hpIFRoaXMgaXMgVFIn</ExpressionVal>
               <ExpectedType>B</ExpectedType>
+              <Direction>I</Direction>
+            </UpdateExp>
+            <ConditionExp>
+              <ExpectedType>L</ExpectedType>
+              <Direction>I</Direction>
+            </ConditionExp>
+          </row>
+          <row>
+            <ID>2</ID>
+            <Order>0</Order>
+            <Action>1</Action>
+            <TargetType>1</TargetType>
+            <isTargetDynamic>false</isTargetDynamic>
+            <Encoding>0</Encoding>
+            <TargetInfo>
+              <NameExp>
+                <ExpressionVal>PCMhJUAkPmdldFZhck5hbWUoMSwnMTUyZDIzYzQtYzAwZC00YzE2LThhMjktNDE4YTQ0ODQyN2ZmJywwLDApPCMhJUAkPg==</ExpressionVal>
+                <ExpectedType>A</ExpectedType>
+                <Direction>N</Direction>
+              </NameExp>
+              <Type>
+                <Type>A</Type>
+                <Picture>30</Picture>
+                <isUnicode>false</isUnicode>
+                <isNillable>false</isNillable>
+              </Type>
+              <UDSType_GUID>
+                <ExpectedType />
+                <Direction>N</Direction>
+              </UDSType_GUID>
+            </TargetInfo>
+            <IndexExp>
+              <ExpectedType>N</ExpectedType>
+              <Direction>I</Direction>
+            </IndexExp>
+            <UpdateExp>
+              <ExpressionVal>J0hFWVlZJw==</ExpressionVal>
+              <ExpectedType>A</ExpectedType>
               <Direction>I</Direction>
             </UpdateExp>
             <ConditionExp>
